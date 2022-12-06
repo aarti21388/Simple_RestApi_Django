@@ -11,7 +11,8 @@
   - Actions
   - Runners
 
-  ![actions](/actions.png)
+  ![action](https://user-images.githubusercontent.com/116127790/205776212-2d242a68-9a5f-4221-bb82-1ed7079d48ae.png)
+
   
 ### Workflows
 - We can create workflows by defining them in a YAML file, and they will run when triggered by an event in your repository, 
