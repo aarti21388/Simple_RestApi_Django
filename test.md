@@ -8,8 +8,9 @@
 ## http://127.0.0.1:8000/books_data/GetBooks/
 
 # With postman apply the following
+''''
 1. Method = GET 
-
+'''
 # Update one Book with id
 ## http://127.0.0.1:8000/books_data/UpdateBook/2
 ```
@@ -31,7 +32,7 @@ content
 ```
 # Insert new Book data
 ## http://127.0.0.1:8000/books_data/CreateBook/
-
+'''
 # With postman apply the following
 1. Method = POST 
 2. Content = Body>Raw
@@ -50,7 +51,7 @@ content
 ```
 # Delete one Book with id
 ## http://127.0.0.1:8000/books_data/DeleteBook/2
-
+'''
 # With postman apply the following
 1. Method = DELETE 
 No Content To Pass
