@@ -32,7 +32,7 @@ content
 ```
 # Insert new Book data
 ## http://127.0.0.1:8000/books_data/CreateBook/
-'''
+```
 # With postman apply the following
 1. Method = POST 
 2. Content = Body>Raw
@@ -40,13 +40,14 @@ content
 
 content
 --------
-{  
+{
         "description": "This book is called bad bloodand it is 100 long",
         "title": "bad blood",
         "number_of_pages": 100,
         "publish_date": "2022-11-27",
         "quantity": 300
-    },'''
+    }
+```
 
 # Delete one Book with id
 ## http://127.0.0.1:8000/books_data/DeleteBook/2
