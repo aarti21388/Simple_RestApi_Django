@@ -47,10 +47,11 @@ content
         "publish_date": "2022-11-27",
         "quantity": 300
     },'''
-```
+
 # Delete one Book with id
 ## http://127.0.0.1:8000/books_data/DeleteBook/2
-'''
+
+```
 # With postman apply the following
 1. Method = DELETE 
 No Content To Pass
