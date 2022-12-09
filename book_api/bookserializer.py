@@ -19,4 +19,4 @@ class BookSerializer(serializers.ModelSerializer):
         return data
 
     def get_description(self,data):
-        return "This book is called"+ data.title + "and it is " +str(data.number_of_pages)+ " long"
+        return "This book is called "+ data.title + " and it is " +str(data.number_of_pages)+ " long"
