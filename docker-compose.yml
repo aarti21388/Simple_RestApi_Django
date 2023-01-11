@@ -9,7 +9,7 @@ services:
     volumes:
       - .:/opt/services/books/src
     ports:
-      - 8000:8000
+      - 5001:8000
     # networks:
         # - coding_postgresql_default
 # networks:
